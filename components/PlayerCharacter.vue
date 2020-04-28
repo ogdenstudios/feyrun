@@ -1,25 +1,17 @@
 <template>
   <article>
-    <span>Name: {{ pc.name }}</span>
-    <span>Class: {{ pc.class }}</span>
-    <span>Level: {{ pc.level }}</span>
-    <span>Background: {{ pc.background }}</span>
-    <span>Race: {{ pc.race }}</span>
-    <span>Alignment: {{ pc.alignment }}</span>
-    <span>Experience: {{ pc.experience }}</span>
-    <span>Strength: {{ pc.ability_scores.strength }}</span>
-    <span>Dexterity: {{ pc.ability_scores.dexterity }}</span>
-    <span>Constitution: {{ pc.ability_scores.constitution }}</span>
-    <span>Intelligence: {{ pc.ability_scores.intelligence }}</span>
-    <span>Wisdom: {{ pc.ability_scores.wisdom }}</span>
-    <span>Charisma: {{ pc.ability_scores.charisma }}</span>
-    <span>Proficiency: {{ pc.proficiency }}</span>
-    <SavingThrows :scores="pc.ability_scores" :proficiency="pc.proficiency" />
-    <Skills
-      :scores="pc.ability_scores"
-      :proficiency="pc.proficiency"
-      :proficiencies="pc.proficiencies"
-    />
+    <CharacterInfo :info="pc.character_info" />
+    <Abilities :abilities="pc.ability_scores" />
+    <div class="derivedScores">
+      <div>Proficiency: {{ pc.proficiency }}</div>
+      <SavingThrows :scores="pc.ability_scores" :proficiency="pc.proficiency" />
+      <Skills
+        :scores="pc.ability_scores"
+        :proficiency="pc.proficiency"
+        :proficiencies="pc.proficiencies"
+      />
+    </div>
+
     <Combat :combat="pc.combat" />
   </article>
 </template>
@@ -28,11 +20,15 @@
 import SavingThrows from './SavingThrows'
 import Skills from './Skills'
 import Combat from './Combat'
+import CharacterInfo from '~/components/CharacterInfo'
+import Abilities from '~/components/Abilities'
 export default {
   components: {
+    CharacterInfo,
     SavingThrows,
     Skills,
-    Combat
+    Combat,
+    Abilities
   },
   props: {
     pc: {
@@ -42,3 +38,15 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+.derivedScores {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+</style>

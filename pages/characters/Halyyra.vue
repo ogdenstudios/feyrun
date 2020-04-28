@@ -1,5 +1,5 @@
 <template>
-  <PlayerCharacter :pc="halyyra" />
+  <div class="container"><PlayerCharacter :pc="halyyra" /></div>
 </template>
 
 <script>
@@ -11,13 +11,15 @@ export default {
   data() {
     return {
       halyyra: {
-        name: 'Halyyra',
-        class: 'Warlock',
-        level: 6,
-        background: null,
-        race: 'Half-elf',
-        alignment: 'true neutral',
-        experience: 0,
+        character_info: {
+          name: 'Halyyra',
+          class: 'Warlock',
+          level: 6,
+          background: null,
+          race: 'Half-elf',
+          alignment: 'true neutral',
+          experience: 0
+        },
         ability_scores: {
           strength: 12,
           dexterity: 10,

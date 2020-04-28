@@ -1,8 +1,9 @@
 <template>
-  <PlayerCharacter :pc="halyyra" />
+  <div class="container"><PlayerCharacter :pc="halyyra" /></div>
 </template>
 
 <script>
+// https://www.d20pfsrd.com/races/other-races/uncommon-races/arg-svirfneblin/
 import PlayerCharacter from '~/components/PlayerCharacter'
 export default {
   components: {
@@ -11,20 +12,22 @@ export default {
   data() {
     return {
       halyyra: {
-        name: 'Calwor Valzu',
-        class: 'Wizard',
-        level: 6,
-        background: null,
-        race: 'Gnome - svirfneblin',
-        alignment: 'true neutral',
-        experience: 0,
+        character_info: {
+          name: 'Calwor Valzu',
+          class: 'Wizard',
+          level: 6,
+          background: null,
+          race: 'Gnome - svirfneblin',
+          alignment: 'true neutral',
+          experience: 0
+        },
         ability_scores: {
-          strength: 12,
-          dexterity: 16,
+          strength: 10,
+          dexterity: 18,
           constitution: 12,
           intelligence: 17,
-          wisdom: 15,
-          charisma: 12
+          wisdom: 17,
+          charisma: 8
         },
         proficiency: 3,
         proficiencies: [
@@ -41,7 +44,7 @@ export default {
         combat: {
           armor_class: 10,
           initiative: 2,
-          speed: 30,
+          speed: 20,
           hit_points: 26
         },
         attacks: [],
@@ -50,8 +53,11 @@ export default {
           'arcane_recovery',
           'school_of_divination',
           'portent',
-          'expert_divination'
+          'expert_divination',
+          'darkvision',
+          'low_light_vision'
         ],
+        languages: ['gnome', 'undercommon', 'common'],
         spells: {
           cantrips_known: 4,
           first_level_spell_slots: 4,
