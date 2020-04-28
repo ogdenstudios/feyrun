@@ -1,1 +1,0 @@
-1. Have them roll a DC 10 check for memory

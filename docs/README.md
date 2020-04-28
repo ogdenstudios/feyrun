@@ -1,3 +1,0 @@
-# Home
-
-Nothing here yet...
