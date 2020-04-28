@@ -1,26 +1,15 @@
 {
   "name": "feyrun",
   "version": "1.0.0",
-  "description": "[Built with Vuepress](https://vuepress.vuejs.org/0)",
   "main": "index.js",
-  "dependencies": {
+  "repository": "git@github.com:ogdenstudios/feyrun.git",
+  "author": "Tyler Williams <tyler@ogdenstudios>",
+  "license": "MIT",
+  "devDependencies": {
     "vuepress": "^1.4.1"
   },
-  "devDependencies": {},
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ogdenstudios/feyrun.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ogdenstudios/feyrun/issues"
-  },
-  "homepage": "https://github.com/ogdenstudios/feyrun#readme"
+    "docs:build": "vuepress build docs"
+  }
 }
