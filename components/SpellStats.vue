@@ -2,15 +2,15 @@
   <div class="spellStats">
     <div>
       <h3>Spellcasting Ability</h3>
-      {{ amnesia(true) ? stats.ability : '' }}
+      {{ characterRemembers(true) ? stats.ability : '' }}
     </div>
     <div>
       <h3>Spell Save DC</h3>
-      {{ amnesia(true) ? stats.dc : '' }}
+      {{ characterRemembers(true) ? stats.dc : '' }}
     </div>
     <div>
       <h3>Spell Attack Bonus</h3>
-      {{ amnesia(true) ? stats.bonus : '' }}
+      {{ characterRemembers(true) ? stats.bonus : '' }}
     </div>
   </div>
 </template>

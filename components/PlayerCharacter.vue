@@ -1,21 +1,30 @@
 <template>
   <article>
-    <CharacterInfo :info="pc.character_info" />
-    <Abilities :abilities="pc.ability_scores" />
+    <CharacterInfo :info="pc.character_info" :memories="pc.memories" />
+    <Abilities :abilities="pc.ability_scores" :memories="pc.memories" />
     <div class="derivedScores">
       <div class="proficiency">
         <h3>Proficiency:</h3>
-        <span> {{ amnesia(true) ? pc.proficiency : '' }}</span>
+        <span>
+          {{
+            characterRemembers(pc.memories.proficiency) ? pc.proficiency : ''
+          }}</span
+        >
       </div>
-      <SavingThrows :scores="pc.ability_scores" :proficiency="pc.proficiency" />
+      <SavingThrows
+        :scores="pc.ability_scores"
+        :proficiency="pc.proficiency"
+        :memories="pc.memories"
+      />
       <Skills
         :scores="pc.ability_scores"
         :proficiency="pc.proficiency"
         :proficiencies="pc.proficiencies"
+        :memories="pc.memories"
       />
     </div>
     <div style="flex: 1;">
-      <Combat :combat="pc.combat" />
+      <Combat :combat="pc.combat" :memories="pc.memories" />
       <div class="features">
         <h2>Features</h2>
         <Feature

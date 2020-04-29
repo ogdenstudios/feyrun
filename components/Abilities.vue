@@ -2,27 +2,51 @@
   <div class="abilities">
     <div class="abilities__item">
       <h3>Strength</h3>
-      {{ amnesia(true) ? abilities.strength : '' }}
+      {{
+        characterRemembers(memories.strength)
+          ? scoreAndBonus(abilities.strength)
+          : ''
+      }}
     </div>
     <div class="abilities__item">
       <h3>Dexterity</h3>
-      {{ amnesia(true) ? abilities.dexterity : '' }}
+      {{
+        characterRemembers(memories.dexterity)
+          ? scoreAndBonus(abilities.dexterity)
+          : ''
+      }}
     </div>
     <div class="abilities__item">
       <h3>Constitution</h3>
-      {{ amnesia(true) ? abilities.constitution : '' }}
+      {{
+        characterRemembers(memories.constitution)
+          ? scoreAndBonus(abilities.constitution)
+          : ''
+      }}
     </div>
     <div class="abilities__item">
       <h3>Intelligence</h3>
-      {{ amnesia(true) ? abilities.intelligence : '' }}
+      {{
+        characterRemembers(memories.intelligence)
+          ? scoreAndBonus(abilities.intelligence)
+          : ''
+      }}
     </div>
     <div class="abilities__item">
       <h3>Wisdom</h3>
-      {{ amnesia(true) ? abilities.wisdom : '' }}
+      {{
+        characterRemembers(memories.wisdom)
+          ? scoreAndBonus(abilities.wisdom)
+          : ''
+      }}
     </div>
     <div class="abilities__item">
       <h3>Charisma</h3>
-      {{ amnesia(true) ? abilities.charisma : '' }}
+      {{
+        characterRemembers(memories.charisma)
+          ? scoreAndBonus(abilities.charisma)
+          : ''
+      }}
     </div>
   </div>
 </template>
@@ -31,6 +55,10 @@
 export default {
   props: {
     abilities: {
+      type: Object,
+      default: null
+    },
+    memories: {
       type: Object,
       default: null
     }

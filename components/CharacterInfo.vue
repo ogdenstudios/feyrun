@@ -2,31 +2,31 @@
   <div class="characterInfo">
     <div class="characterInfo__item">
       <h3>Name:</h3>
-      {{ amnesia(true) ? info.name : '' }}
+      {{ characterRemembers(memories.name) ? info.name : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Class:</h3>
-      {{ amnesia(true) ? info.class : '' }}
+      {{ characterRemembers(memories.class) ? info.class : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Level:</h3>
-      {{ amnesia(true) ? info.level : '' }}
+      {{ characterRemembers(memories.level) ? info.level : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Background:</h3>
-      {{ amnesia(true) ? info.background : '' }}
+      {{ characterRemembers(memories.background) ? info.background : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Race:</h3>
-      {{ amnesia(true) ? info.race : '' }}
+      {{ characterRemembers(memories.race) ? info.race : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Alignment:</h3>
-      {{ amnesia(true) ? info.alignment : '' }}
+      {{ characterRemembers(memories.alignment) ? info.alignment : '' }}
     </div>
     <div class="characterInfo__item">
       <h3>Experience:</h3>
-      {{ amnesia(true) ? info.experience : '' }}
+      {{ characterRemembers(memories.experience) ? info.experience : '' }}
     </div>
   </div>
 </template>
@@ -35,6 +35,10 @@
 export default {
   props: {
     info: {
+      type: Object,
+      default: null
+    },
+    memories: {
       type: Object,
       default: null
     }

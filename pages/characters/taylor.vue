@@ -50,31 +50,37 @@ export default {
         attacks: [],
         features: [
           {
+            memory: false,
             title: 'Darkvision',
             description:
               '<p>Accustomed to life Underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only Shades of Gray.</p>'
           },
           {
+            memory: false,
             title: 'Spellcasting',
             description:
               '<p>As a student of Arcane Magic, you have a Spellbook containing Spells that show the first glimmerings of your true power.</p>'
           },
           {
+            memory: false,
             title: 'Arcane Recovery',
             description:
               '<p>You have learned to regain some of your magical energy by studying your Spellbook. Once per day when you finish a Short Rest, you can choose expended Spell Slots to recover. The Spell Slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be 6th level or higher.</p><p>For example, if you’re a 4th-level Wizard, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level spell slot or two 1st-level Spell Slots.</p>'
           },
           {
+            memory: false,
             title: 'School of Divination',
             description:
               '<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Divination spell into your spellbook is halved.</p>'
           },
           {
+            memory: false,
             title: 'Portent',
             description:
               '<p>Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>'
           },
           {
+            memory: false,
             title: 'Expert Divination',
             description:
               "<p>Beginning at 6th level, casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level.</p>"
@@ -86,7 +92,48 @@ export default {
           dc: 15,
           bonus: 7
         },
-        spells: []
+        spells: [],
+        memories: {
+          name: false,
+          class: false,
+          level: false,
+          race: false,
+          alignment: false,
+          experience: false,
+          strength: false,
+          dexterity: false,
+          constitution: false,
+          intelligence: false,
+          wisdom: false,
+          charisma: false,
+          armor_class: false,
+          initiative: false,
+          speed: false,
+          hit_points: false,
+          proficiency: false,
+          strength_save: false,
+          dexterity_save: false,
+          intelligence_save: false,
+          wisdom_save: false,
+          charisma_save: false,
+          acrobatics: false,
+          animal_handling: false,
+          arcana: false,
+          athletics: false,
+          deception: false,
+          history: false,
+          insight: false,
+          intimidation: false,
+          investigation: false,
+          medicine: false,
+          nature: false,
+          perception: false,
+          performance: false,
+          religion: false,
+          sleight_of_hand: false,
+          stealth: false,
+          survival: false
+        }
       }
     }
   }

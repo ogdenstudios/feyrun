@@ -1,34 +1,96 @@
 <template>
   <div class="skills">
-    <span>Acrobatics: {{ amnesia(true) ? scores.acrobatics : '' }} </span><br />
-    <span>Animal Handling: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Acrobatics:
+      {{
+        characterRemembers(memories.acrobatics) ? scores.acrobatics : ''
+      }} </span
     ><br />
-    <span>Arcana: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Animal Handling:
+      {{
+        characterRemembers(memories.animal_handling) ? scores.acrobatics : ''
+      }}</span
     ><br />
-    <span>Athletics: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Arcana:
+      {{ characterRemembers(memories.arcana) ? scores.acrobatics : '' }}</span
     ><br />
-    <span>Deception: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Athletics:
+      {{
+        characterRemembers(memories.athletics) ? scores.acrobatics : ''
+      }}</span
     ><br />
-    <span>History: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Deception:
+      {{
+        characterRemembers(memories.deception) ? scores.acrobatics : ''
+      }}</span
     ><br />
-    <span>Insight: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >History:
+      {{ characterRemembers(memories.history) ? scores.acrobatics : '' }}</span
     ><br />
-    <span>Intimidation: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Insight:
+      {{ characterRemembers(memories.insight) ? scores.acrobatics : '' }}</span
     ><br />
-    <span>Investigation: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Intimidation:
+      {{
+        characterRemembers(memories.intimidation) ? scores.intimidation : ''
+      }}</span
     ><br />
-    <span>Medicine: {{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Investigation:
+      {{
+        characterRemembers(memories.investigation) ? scores.investigation : ''
+      }}</span
     ><br />
-    <span>Nature:{{ amnesia(true) ? scores.acrobatics : '' }}</span
+    <span
+      >Medicine:
+      {{ characterRemembers(memories.medicine) ? scores.acrobatics : '' }}</span
     ><br />
-    <span>Perception: {{ amnesia(true) ? scores.acrobatics : '' }} </span><br />
-    <span>Performance: {{ amnesia(true) ? scores.acrobatics : '' }} </span
+    <span
+      >Nature:{{
+        characterRemembers(memories.nature) ? scores.acrobatics : ''
+      }}</span
     ><br />
-    <span>Religion: {{ amnesia(true) ? scores.acrobatics : '' }} </span><br />
-    <span>Sleight of Hand: {{ amnesia(true) ? scores.acrobatics : '' }} </span
+    <span
+      >Perception:
+      {{
+        characterRemembers(memories.perception) ? scores.acrobatics : ''
+      }} </span
     ><br />
-    <span>Stealth: {{ amnesia(true) ? scores.acrobatics : '' }} </span><br />
-    <span>Survival: {{ amnesia(true) ? scores.acrobatics : '' }} </span><br />
+    <span
+      >Performance:
+      {{
+        characterRemembers(memories.performance) ? scores.acrobatics : ''
+      }} </span
+    ><br />
+    <span
+      >Religion:
+      {{
+        characterRemembers(memories.religion) ? scores.acrobatics : ''
+      }} </span
+    ><br />
+    <span
+      >Sleight of Hand:
+      {{
+        characterRemembers(memories.sleight_of_hand) ? scores.acrobatics : ''
+      }} </span
+    ><br />
+    <span
+      >Stealth:
+      {{ characterRemembers(memories.stealth) ? scores.acrobatics : '' }} </span
+    ><br />
+    <span
+      >Survival:
+      {{
+        characterRemembers(memories.survival) ? scores.acrobatics : ''
+      }} </span
+    ><br />
   </div>
 </template>
 
@@ -43,7 +105,7 @@ export default {
       type: Number,
       default: 0
     },
-    proficiencies: {
+    memories: {
       type: Array,
       default: null
     }

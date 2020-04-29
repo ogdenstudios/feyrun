@@ -1,5 +1,5 @@
 <template>
-  <details v-if="amnesia(true)">
+  <details v-if="characterRemembers(spell.memory)">
     <summary>{{ spell.title }}</summary>
     <div v-html="spell.description" />
   </details>

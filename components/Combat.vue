@@ -2,19 +2,19 @@
   <div class="combat">
     <div class="combat__item">
       <h3>Armor class:</h3>
-      {{ amnesia(true) ? combat.armor_class : '' }}
+      {{ characterRemembers(memories.armor_class) ? combat.armor_class : '' }}
     </div>
     <div class="combat__item">
       <h3>Initiative:</h3>
-      {{ amnesia(true) ? combat.initiative : '' }}
+      {{ characterRemembers(memories.initiative) ? combat.initiative : '' }}
     </div>
     <div class="combat__item">
       <h3>Speed:</h3>
-      {{ amnesia(true) ? combat.speed : '' }}
+      {{ characterRemembers(memories.speed) ? combat.speed : '' }}
     </div>
     <div class="combat__item">
       <h3>Hit points:</h3>
-      {{ amnesia(true) ? combat.hit_points : '' }}
+      {{ characterRemembers(memories.hit_points) ? combat.hit_points : '' }}
     </div>
   </div>
 </template>
@@ -23,6 +23,10 @@
 export default {
   props: {
     combat: {
+      type: Object,
+      default: null
+    },
+    memories: {
       type: Object,
       default: null
     }

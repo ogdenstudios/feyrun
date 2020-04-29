@@ -33,7 +33,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/amnesia.js'],
+  plugins: ['~/plugins/mixins.js'],
   /*
    ** Nuxt.js dev-modules
    */
