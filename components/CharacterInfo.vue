@@ -1,6 +1,6 @@
 <template>
   <div class="characterInfo">
-    <div>{{ amnesia(true) ? info.name : '' }} <span>Character Name</span></div>
+    <div>{{ amnesia(false) ? info.name : '' }} <span>Character Name</span></div>
     <div>{{ amnesia(true) ? info.class : '' }} <span>Class</span></div>
     <div>{{ amnesia(true) ? info.level : '' }}<span>Level</span></div>
     <div>
