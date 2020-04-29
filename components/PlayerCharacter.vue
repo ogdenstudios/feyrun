@@ -24,6 +24,9 @@
           :feature="feat"
         />
       </div>
+      <div class="spells">
+        <h2>Spells</h2>
+      </div>
     </div>
   </article>
 </template>
@@ -71,7 +74,8 @@ article {
     display: inline;
   }
 }
-.features {
+.features,
+.spells {
   background: rgba(0, 0, 0, 0.9);
   margin-left: 20px;
   padding: 0 1em 1em 1em;
