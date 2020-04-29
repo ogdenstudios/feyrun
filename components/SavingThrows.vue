@@ -1,11 +1,29 @@
 <template>
-  <div>
-    <span>Strength: {{ scores.strength }}</span>
-    <span>Dexterity: {{ scores.dexterity }}</span>
-    <span>Constitution: {{ scores.constitution }}</span>
-    <span>Intelligence: {{ scores.intelligence }}</span>
-    <span>Wisdom: {{ scores.wisdom }}</span>
-    <span>Charisma: {{ scores.charisma }}</span>
+  <div class="saves">
+    <div class="saves__item">
+      <h3>Strength save:</h3>
+      {{ amnesia(true) ? scores.strength : '' }}
+    </div>
+    <div class="savess__item">
+      <h3>Dexterity save:</h3>
+      {{ amnesia(true) ? scores.dexterity : '' }}
+    </div>
+    <div class="saves__item">
+      <h3>Constitution save:</h3>
+      {{ amnesia(true) ? scores.constitution : '' }}
+    </div>
+    <div class="saves__item">
+      <h3>Intelligence save:</h3>
+      {{ amnesia(true) ? scores.intelligence : '' }}
+    </div>
+    <div class="saves__item">
+      <h3>Wisdom save:</h3>
+      {{ amnesia(true) ? scores.wisdom : '' }}
+    </div>
+    <div class="saves__item">
+      <h3>Charisma save:</h3>
+      {{ amnesia(true) ? scores.charisma : '' }}
+    </div>
   </div>
 </template>
 
@@ -23,3 +41,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.saves {
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 0 1em 1em 1em;
+}
+h3 {
+  display: inline;
+}
+</style>

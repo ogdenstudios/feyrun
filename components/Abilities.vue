@@ -45,6 +45,7 @@ export default {
   &__item {
     background: rgba(0, 0, 0, 0.9);
     padding: 0 1em 1em 1em;
+    text-align: center;
   }
 }
 </style>
