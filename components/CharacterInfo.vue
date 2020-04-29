@@ -1,12 +1,14 @@
 <template>
   <div class="characterInfo">
-    <span>Name: {{ info.name }}</span>
-    <span>Class: {{ info.class }}</span>
-    <span>Level: {{ info.level }}</span>
-    <span>Background: {{ info.background }}</span>
-    <span>Race: {{ info.race }}</span>
-    <span>Alignment: {{ info.alignment }}</span>
-    <span>Experience: {{ info.experience }}</span>
+    <div>{{ amnesia(true) ? info.name : '' }} <span>Character Name</span></div>
+    <div>{{ amnesia(true) ? info.class : '' }} <span>Class</span></div>
+    <div>{{ amnesia(true) ? info.level : '' }}<span>Level</span></div>
+    <div>
+      {{ amnesia(true) ? info.background : '' }} <span>Background</span>
+    </div>
+    <div>{{ amnesia(true) ? info.race : '' }}<span>Race</span></div>
+    <div>{{ amnesia(true) ? info.alignment : '' }}<span>Alignment</span></div>
+    <div>{{ amnesia(true) ? info.experience : '' }}<span>Experience</span></div>
   </div>
 </template>
 
