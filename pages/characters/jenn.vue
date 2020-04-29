@@ -240,7 +240,10 @@ export default {
           religion: false,
           sleight_of_hand: false,
           stealth: false,
-          survival: false
+          survival: false,
+          spell_ability: false,
+          spell_save: false,
+          spell_attack: false
         }
       }
     }

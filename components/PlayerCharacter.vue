@@ -33,7 +33,7 @@
           :feature="feat"
         />
       </div>
-      <SpellStats :stats="pc.spell_stats" />
+      <SpellStats :stats="pc.spell_stats" :memories="pc.memories" />
       <div class="spells">
         <h2>Spells</h2>
         <Spell v-for="spell in pc.spells" :key="spell.title" :spell="spell" />
