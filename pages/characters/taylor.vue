@@ -23,9 +23,9 @@ export default {
         },
         ability_scores: {
           strength: 10,
-          dexterity: 18,
+          dexterity: 17,
           constitution: 12,
-          intelligence: 17,
+          intelligence: 18,
           wisdom: 17,
           charisma: 8
         },
@@ -81,12 +81,12 @@ export default {
           }
         ],
         languages: ['gnome', 'undercommon', 'common'],
-        spells: {
-          cantrips_known: 4,
-          first_level_spell_slots: 4,
-          second_level_spell_slots: 3,
-          third_level_spell_slots: 3
-        }
+        spell_stats: {
+          ability: 'INT',
+          dc: 15,
+          bonus: 7
+        },
+        spells: []
       }
     }
   }

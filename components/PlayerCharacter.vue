@@ -24,6 +24,7 @@
           :feature="feat"
         />
       </div>
+      <SpellStats :stats="pc.spell_stats" />
       <div class="spells">
         <h2>Spells</h2>
         <Spell v-for="spell in pc.spells" :key="spell.title" :spell="spell" />
@@ -40,6 +41,7 @@ import CharacterInfo from '~/components/CharacterInfo'
 import Abilities from '~/components/Abilities'
 import Feature from '~/components/Feature'
 import Spell from '~/components/Spell'
+import SpellStats from '~/components/SpellStats'
 export default {
   components: {
     CharacterInfo,
@@ -48,7 +50,8 @@ export default {
     Combat,
     Abilities,
     Feature,
-    Spell
+    Spell,
+    SpellStats
   },
   props: {
     pc: {

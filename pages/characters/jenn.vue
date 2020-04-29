@@ -83,6 +83,11 @@ export default {
           }
         ],
         languages: ['common', 'elvish', 'sylvan'],
+        spell_stats: {
+          ability: 'CHA',
+          dc: 16,
+          bonus: 7
+        },
         spells: [
           {
             title: 'Friends',
