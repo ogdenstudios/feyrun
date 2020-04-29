@@ -1,27 +1,27 @@
 <template>
   <div class="saves">
     <div class="saves__item">
-      <h3>Strength save:</h3>
+      <h3>STR SAVE:</h3>
       {{ amnesia(true) ? scores.strength : '' }}
     </div>
     <div class="savess__item">
-      <h3>Dexterity save:</h3>
+      <h3>DEX SAVE:</h3>
       {{ amnesia(true) ? scores.dexterity : '' }}
     </div>
     <div class="saves__item">
-      <h3>Constitution save:</h3>
+      <h3>CON SAVE:</h3>
       {{ amnesia(true) ? scores.constitution : '' }}
     </div>
     <div class="saves__item">
-      <h3>Intelligence save:</h3>
+      <h3>INT SAVE:</h3>
       {{ amnesia(true) ? scores.intelligence : '' }}
     </div>
     <div class="saves__item">
-      <h3>Wisdom save:</h3>
+      <h3>WIS SAVE:</h3>
       {{ amnesia(true) ? scores.wisdom : '' }}
     </div>
     <div class="saves__item">
-      <h3>Charisma save:</h3>
+      <h3>CHA SAVE:</h3>
       {{ amnesia(true) ? scores.charisma : '' }}
     </div>
   </div>

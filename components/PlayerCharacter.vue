@@ -14,8 +14,17 @@
         :proficiencies="pc.proficiencies"
       />
     </div>
-
-    <Combat :combat="pc.combat" />
+    <div style="flex: 1;">
+      <Combat :combat="pc.combat" />
+      <div class="features">
+        <h2>Features</h2>
+        <Feature
+          v-for="feat in pc.features"
+          :key="feat.title"
+          :feature="feat"
+        />
+      </div>
+    </div>
   </article>
 </template>
 
@@ -25,13 +34,15 @@ import Skills from './Skills'
 import Combat from './Combat'
 import CharacterInfo from '~/components/CharacterInfo'
 import Abilities from '~/components/Abilities'
+import Feature from '~/components/Feature'
 export default {
   components: {
     CharacterInfo,
     SavingThrows,
     Skills,
     Combat,
-    Abilities
+    Abilities,
+    Feature
   },
   props: {
     pc: {
@@ -59,5 +70,10 @@ article {
   h3 {
     display: inline;
   }
+}
+.features {
+  background: rgba(0, 0, 0, 0.9);
+  margin-left: 20px;
+  padding: 0 1em 1em 1em;
 }
 </style>
