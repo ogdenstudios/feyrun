@@ -21,6 +21,10 @@ export default {
     stats: {
       type: Object,
       default: null
+    },
+    memories: {
+      type: Object,
+      default: null
     }
   }
 }
