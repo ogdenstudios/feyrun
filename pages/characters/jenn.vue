@@ -29,16 +29,16 @@ export default {
           charisma: 21
         },
         proficiency: 3,
-        proficiencies: [
-          'light_armor',
-          'simple_weapons',
-          'wisdom',
-          'charisma',
-          'arcana',
-          'nature',
-          'animal_handling',
-          'investigation'
-        ],
+        proficiencies: {
+          light_armor: true,
+          simple_weapons: true,
+          wisdom: true,
+          charisma: true,
+          arcana: true,
+          nature: true,
+          animal_handling: true,
+          investigation: true
+        },
         combat: {
           armor_class: 10,
           initiative: 2,

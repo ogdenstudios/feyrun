@@ -3,92 +3,136 @@
     <span
       >Acrobatics:
       {{
-        characterRemembers(memories.acrobatics) ? scores.acrobatics : ''
+        characterRemembers(memories.acrobatics)
+          ? getScore('acrobatics', 'strength')
+          : ''
       }} </span
     ><br />
     <span
       >Animal Handling:
       {{
-        characterRemembers(memories.animal_handling) ? scores.acrobatics : ''
+        characterRemembers(memories.animal_handling)
+          ? getScore('animal_handling', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >Arcana:
-      {{ characterRemembers(memories.arcana) ? scores.acrobatics : '' }}</span
+      {{
+        characterRemembers(memories.arcana)
+          ? getScore('arcana', 'strength')
+          : ''
+      }}</span
     ><br />
     <span
       >Athletics:
       {{
-        characterRemembers(memories.athletics) ? scores.acrobatics : ''
+        characterRemembers(memories.athletics)
+          ? getScore('athletics', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >Deception:
       {{
-        characterRemembers(memories.deception) ? scores.acrobatics : ''
+        characterRemembers(memories.deception)
+          ? getScore('deception', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >History:
-      {{ characterRemembers(memories.history) ? scores.acrobatics : '' }}</span
+      {{
+        characterRemembers(memories.history)
+          ? getScore('history', 'strength')
+          : ''
+      }}</span
     ><br />
     <span
       >Insight:
-      {{ characterRemembers(memories.insight) ? scores.acrobatics : '' }}</span
+      {{
+        characterRemembers(memories.insight)
+          ? getScore('insight', 'strength')
+          : ''
+      }}</span
     ><br />
     <span
       >Intimidation:
       {{
-        characterRemembers(memories.intimidation) ? scores.intimidation : ''
+        characterRemembers(memories.intimidation)
+          ? getScore('intimidation', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >Investigation:
       {{
-        characterRemembers(memories.investigation) ? scores.investigation : ''
+        characterRemembers(memories.investigation)
+          ? getScore('investigation', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >Medicine:
-      {{ characterRemembers(memories.medicine) ? scores.acrobatics : '' }}</span
+      {{
+        characterRemembers(memories.medicine)
+          ? getScore('medicine', 'strength')
+          : ''
+      }}</span
     ><br />
     <span
       >Nature:{{
-        characterRemembers(memories.nature) ? scores.acrobatics : ''
+        characterRemembers(memories.nature)
+          ? getScore('nature', 'strength')
+          : ''
       }}</span
     ><br />
     <span
       >Perception:
       {{
-        characterRemembers(memories.perception) ? scores.acrobatics : ''
+        characterRemembers(memories.perception)
+          ? getScore('perception', 'strength')
+          : ''
       }} </span
     ><br />
     <span
       >Performance:
       {{
-        characterRemembers(memories.performance) ? scores.acrobatics : ''
+        characterRemembers(memories.performance)
+          ? getScore('performance', 'strength')
+          : ''
       }} </span
     ><br />
     <span
       >Religion:
       {{
-        characterRemembers(memories.religion) ? scores.acrobatics : ''
+        characterRemembers(memories.religion)
+          ? getScore('religion', 'strength')
+          : ''
       }} </span
     ><br />
     <span
       >Sleight of Hand:
       {{
-        characterRemembers(memories.sleight_of_hand) ? scores.acrobatics : ''
+        characterRemembers(memories.sleight_of_hand)
+          ? getScore('sleight_of_hand', 'strength')
+          : ''
       }} </span
     ><br />
     <span
       >Stealth:
-      {{ characterRemembers(memories.stealth) ? scores.acrobatics : '' }} </span
+      {{
+        characterRemembers(memories.stealth)
+          ? getScore('stealth', 'strength')
+          : ''
+      }} </span
     ><br />
     <span
       >Survival:
       {{
-        characterRemembers(memories.survival) ? scores.acrobatics : ''
+        characterRemembers(memories.survival)
+          ? getScore('survival', 'strength')
+          : ''
       }} </span
     ><br />
   </div>
@@ -105,9 +149,22 @@ export default {
       type: Number,
       default: 0
     },
-    memories: {
-      type: Array,
+    proficiencies: {
+      type: Object,
       default: null
+    },
+    memories: {
+      type: Object,
+      default: null
+    }
+  },
+  methods: {
+    getScore(skill, ability) {
+      if (this.proficiencies[skill]) {
+        return this.bonus(this.scores[ability]) + this.proficiency
+      } else {
+        return this.bonus(this.scores[ability])
+      }
     }
   }
 }

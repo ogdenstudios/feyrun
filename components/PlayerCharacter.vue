@@ -14,6 +14,7 @@
       <SavingThrows
         :scores="pc.ability_scores"
         :proficiency="pc.proficiency"
+        :proficiencies="pc.proficiencies"
         :memories="pc.memories"
       />
       <Skills
