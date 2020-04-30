@@ -42,7 +42,7 @@ export default {
           'history'
         ],
         combat: {
-          armor_class: 10,
+          armor_class: 15,
           initiative: 2,
           speed: 20,
           hit_points: 26
