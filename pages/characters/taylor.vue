@@ -92,7 +92,39 @@ export default {
           dc: 15,
           bonus: 7
         },
-        spells: [],
+        spells: [
+          {
+            memory: false,
+            title: 'Protection from Evil and Good',
+            description:
+              '<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p>',
+            level: 0,
+            spell_type: 'Wizard'
+          },
+          {
+            memory: false,
+            title: 'Jump',
+            description:
+              "<p>You touch a creature. The creature's jump distance is tripled until the spell ends.</p>",
+            level: 1,
+            spell_type: 'Wizard'
+          },
+          {
+            memory: false,
+            title: 'Levitate',
+            description:
+              "<p>One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><p> The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.</p><p> When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
+            level: 2,
+            spell_type: 'Wizard'
+          },
+          {
+            memory: false,
+            title: 'Knock',
+            description: `<p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p> A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p> If you choose a target that is held shut with arcane lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.</p><p> When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.</p>`,
+            level: 0,
+            spell_type: 'Wizard'
+          }
+        ],
         memories: {
           name: false,
           class: false,

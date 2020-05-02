@@ -8,12 +8,20 @@ Another blink. The sun sets. Or... has it moved at all?
 
 > Perform a constitution check. DC 10. 
 
-* Halyyra succeeds: she remembers a name, Oberon. 
+* Agarax succeeds: he remembers fire. First screaming. Then laughter, hideous laughter. (The laughter of the pit fiend Asgaroth)
 * Calwor succeeds: he remembers stuffing a small scroll in his pocket
-* 
+* Halyyra succeeds: she remembers a name, Oberon. 
 
 > Calwor, roll two d20s and record the numbers
 
+## Calwor's spells
+
+If Calwor remembers his scroll, it has three spells written on it: 
+
+1. Protection from Evil and Good
+2. Jump
+3. Levitate
+ 
 ## Enter the Feywild
 
 You come to consciousness. Your vision, once blurry, sharpens. The sun is in the same position and you're staring into a deep purple and red twilight. Full of twinkling stars. The grass blows in the wind around you. 
@@ -34,7 +42,7 @@ But if you look to the North, or maybe the South, you see a forest of tall, skin
 
 > A perception check DC 20 will have the trees part and reveal the tower in the distance
 
-In the direction of the sun, where BLANK was, you see fog slowly wisping up from the cusp of the hills. It almost seems to be... climbing up the hill. 
+In the direction of the sun, where Justin was, you see fog slowly wisping up from the cusp of the hills. It almost seems to be... climbing up the hill. 
 
 And in the opposite direction of the sun, you see a light trail. 
 
@@ -88,7 +96,33 @@ The room begins to gradually get smaller. Anyone with darkvision can see, but th
 
 ## The Pitch Black Valley
 
-- For BLANK
+You walk towards the hill where Justin appeared at first. You step with trepidation, worried that the distance may play tricks with you once more. 
+
+This time you can walk directly to your destination. As you crest the hill, the fog swirls... almost faster. It seems to lap at your ankles. You look down, but can't see past it. 
+
+Jenn, as you stare into the fog, it begins to clear? No - it's not clearing, but your vision is coming into focus. 
+
+> Jenn learns she knows Devil's sight, which allows her to see through magical darkness. 
+
+Jenn, you can see a village, shrouded in wisps of fog. Whereas your surroundings are rich with color, the village below seems devoid of it all. Perhaps it's the fog, but the richness is certainly gone. 
+
+> If they walk through, they experience a brief sensation, once more of falling. 
+
+Without warning, they're standing in the middle of the village. Everyone can see now, but truly, the color is gone from the world around you. There are buildings around here, and they are covered in whisps of fog... or perhaps smoke?
+
+> If anyone except Agarax attempts to enter or touch the fog, he has a memory and quickly leaps to his feat to pull them away. The person takes 1d6 fire damage, but he takes none. He learns he has the Child of Imix feature.
+
+Agarax, you feel extremely uneasy. 
+
+> If they turn back, they find the hill is gone. 
+
+A deep, hideous laughter rolls from all directions. 
+
+> Agarax... 
+
+### Semi-divine intervention
+
+> Jenn's sprite appears. "There's no time to explain! You shouldn't be here! Follow me!" They all run with the sprite. They look back to the village, but it's covered in thicker fog. When they look ahead again, they're just cresting the hill once more.
 
 ## The Crossing in the East 
 

@@ -6,7 +6,9 @@ Queen Mab of the Winter Court made an alliance with the Far Beings. Typically so
 
 But Queen Mab grew tired of her perpetual loss to the Summer Court. She suspected she might have something to learn from the Far Beings. 
 
-She held parlay with them and bargained free passage through the Winter lands into the Shadowfell in return for a cease-fire at the Far Gates. (This requires an act of a god and a crossing of the Feywild and Shadowfell)
+She held parlay with them and bargained free passage through the Winter lands into the Shadowfell in return for a cease-fire at the Far Gates. (This requires an act of a god and a crossing of the Feywild and Shadowfell). 
+
+Imix - Justin's peoples' old god and current nemesis. He comes from a village burned by Asgaroth, Imix's Pit Fiend minion. Imix has designs on the plane of fire and means to throw the planes into chaos in order to achieve his goal. 
 
 She amassed her soldiers outside Chateau Faire and claimed it for herself.
 
