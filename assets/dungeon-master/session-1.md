@@ -8,6 +8,10 @@ Another blink. The sun sets. Or... has it moved at all?
 
 > Perform a constitution check. DC 10. 
 
+- Tay: 13+1
+- Jenn: 5 + 3
+- Justin: 10 + 3
+
 * Agarax succeeds: he remembers fire. First screaming. Then laughter, hideous laughter. (The laughter of the pit fiend Asgaroth)
 * Calwor succeeds: he remembers stuffing a small scroll in his pocket
 * Halyyra succeeds: she remembers a name, Oberon. 
@@ -32,7 +36,10 @@ Halyyra, you look to your right and see a gnome, also stirring. Calwor, to your 
 
 BLANK, you wake up as well. You see the others, but you're on a small hill. Between you and them, a still pond. It reflects the twilight almost perfectly. 
 
-> Some skill challenge to make it over to them, or Calwor can help out with his spells. 
+> Some skill challenge to make it over to them, or Calwor can help out with his spells.
+
+- Justin makes an investigation check: 3 + 1
+
 
 ## Where are we? 
 
@@ -41,6 +48,8 @@ The sun hasn't moved since you last looked up. It hasn't moved since the first t
 But if you look to the North, or maybe the South, you see a forest of tall, skinny trees. 
 
 > A perception check DC 20 will have the trees part and reveal the tower in the distance
+
+- Jenn: 13+1 
 
 In the direction of the sun, where Justin was, you see fog slowly wisping up from the cusp of the hills. It almost seems to be... climbing up the hill. 
 
@@ -56,11 +65,27 @@ Roots tangle the ground here.
 
 > A perception check DC 10 will reveal a root with a slight green glow to it. It leads them to a the tower by the climbing tree. A failure will have the trees part and show the way to the base of the tower. 
 
+- Taylor: 16 + 0
+
+- Justin: makes a nature check 15 + 4 to investigate the root
+
 ### The base of the tower
 
 You come up on a tower. From the distance, it looks stone-hewn. You can see the individual bricks in the masonry. But on closer inspection, the tower looks as though it's made of the roots you saw beneath your feet. They twist and pack themselves into roughly-rectangular shapes to mimic the bricks. But it is definitely made of wood. 
 
+- Justin walks around and investigates: 14 + 1
+- Jenn walks around and investigates: 2 + 4
+
 > They can try climbing. Three checks: DC 5, DC 15, DC 25
+
+- Justin tries to climb first: 
+
+1. 8 + 1
+2. 16 + 1 
+3. 5 + 1
+
+Jenn makes a perception check: 18 + 1 
+Taylor makes a perception check: 13 + 0
 
 Whoever falls first, Halyyra will cast fly on them instinctually to the top. 
 
@@ -94,6 +119,8 @@ The window gets smaller... smaller. Til it's a pinpoint. The twilight leaves the
 
 The room begins to gradually get smaller. Anyone with darkvision can see, but they know the light has gone. Calwor must use knock to reopen the trapdoor. 
 
+> Jenn and Taylor have Darkvision
+
 ## The Pitch Black Valley
 
 You walk towards the hill where Justin appeared at first. You step with trepidation, worried that the distance may play tricks with you once more. 
@@ -125,6 +152,8 @@ A deep, hideous laughter rolls from all directions.
 > Jenn's sprite appears. "There's no time to explain! You shouldn't be here! Follow me!" They all run with the sprite. They look back to the village, but it's covered in thicker fog. When they look ahead again, they're just cresting the hill once more.
 
 ## The Crossing in the East 
+
+Justin leads out of the forest: 11 + 4 
 
 Opposite the sun is a dirt trail, twisting and winding away from the clearing. 
 
@@ -163,3 +192,17 @@ They move the sack of potatoes back, when they get to the small farm, he shows t
 ## Semi-divine Intervention
 
 Oberon steps in. If Halyyra remembers him, he leaves a note signed "-O". If she doesn't, he appears.
+
+## Questions
+
+Jenn: Does Oberon sound familiar to her?
+
+Yes
+
+Justin: Who is the sprite they met? 
+
+The sprite from Jenn's pact of the chain. 
+
+Taylor: What's the market? 
+
+An impermanent settlement where local farmers and merchants sell their wares.
