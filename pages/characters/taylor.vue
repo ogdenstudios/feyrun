@@ -129,7 +129,7 @@ export default {
           name: false,
           class: false,
           level: false,
-          race: false,
+          race: true,
           alignment: false,
           experience: false,
           strength: false,
