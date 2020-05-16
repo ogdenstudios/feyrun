@@ -47,7 +47,7 @@ export default {
         },
         features: [
           {
-            memory: false,
+            memory: true,
             title: 'Darkvision',
             description:
               '<p>Thanks to your elf blood, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only Shades of Gray.</p>'
@@ -71,7 +71,7 @@ export default {
               "<p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn. Once you use this feature, you can't use it again until you finish a short or long rest.</p>"
           },
           {
-            memory: false,
+            memory: true,
             title: 'Pact of the Chain',
             description:
               '<p>You learn the Find Familiar spell and can cast it as a ritual. The spell doesn’t count against your number of Spells known.</p><p>When you cast the spell, you can choose one of the normal forms for your familiar or one of the following Special forms: imp, Pseudodragon, Quasit, or Sprite.</p><p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one Attack of its own with its Reaction.</p>'
@@ -169,7 +169,7 @@ export default {
             spell_type: 'Warlock'
           },
           {
-            memory: false,
+            memory: true,
             title: 'Fly',
             description:
               '<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p> When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>',
@@ -177,7 +177,7 @@ export default {
             spell_type: 'Warlock'
           },
           {
-            memory: false,
+            memory: true,
             title: "Devil's sight",
             description:
               '<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>',
@@ -210,7 +210,7 @@ export default {
           experience: false,
           strength: false,
           dexterity: false,
-          constitution: false,
+          constitution: true,
           intelligence: false,
           wisdom: false,
           charisma: false,
@@ -227,15 +227,15 @@ export default {
           acrobatics: false,
           animal_handling: false,
           arcana: false,
-          athletics: false,
+          athletics: true,
           deception: false,
           history: false,
           insight: false,
           intimidation: false,
-          investigation: false,
+          investigation: true,
           medicine: false,
           nature: false,
-          perception: false,
+          perception: true,
           performance: false,
           religion: false,
           sleight_of_hand: false,

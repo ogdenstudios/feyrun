@@ -50,13 +50,13 @@ export default {
         attacks: [],
         features: [
           {
-            memory: false,
+            memory: true,
             title: 'Darkvision',
             description:
               '<p>Accustomed to life Underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only Shades of Gray.</p>'
           },
           {
-            memory: false,
+            memory: true,
             title: 'Spellcasting',
             description:
               '<p>As a student of Arcane Magic, you have a Spellbook containing Spells that show the first glimmerings of your true power.</p>'
@@ -74,7 +74,7 @@ export default {
               '<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Divination spell into your spellbook is halved.</p>'
           },
           {
-            memory: false,
+            memory: true,
             title: 'Portent',
             description:
               '<p>Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>'
@@ -118,7 +118,7 @@ export default {
             spell_type: 'Wizard'
           },
           {
-            memory: false,
+            memory: true,
             title: 'Knock',
             description: `<p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p> A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p> If you choose a target that is held shut with arcane lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.</p><p> When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.</p>`,
             level: 0,
@@ -134,7 +134,7 @@ export default {
           experience: false,
           strength: false,
           dexterity: false,
-          constitution: false,
+          constitution: true,
           intelligence: false,
           wisdom: false,
           charisma: false,
@@ -151,15 +151,15 @@ export default {
           acrobatics: false,
           animal_handling: false,
           arcana: false,
-          athletics: false,
+          athletics: true,
           deception: false,
           history: false,
           insight: false,
           intimidation: false,
-          investigation: false,
+          investigation: true,
           medicine: false,
           nature: false,
-          perception: false,
+          perception: true,
           performance: false,
           religion: false,
           sleight_of_hand: false,
