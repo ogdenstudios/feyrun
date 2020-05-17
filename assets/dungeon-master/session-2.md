@@ -1,8 +1,14 @@
 # Amber waves of grain
 
-You set off through a field of waving, amber grains towards what you think is "the market". In the distance you can see stone-hewn walls and parapets. It looks like perhaps a proper city. 
+You set off through a field of waving, amber grains towards what you think is "the market". In the distance you can see stone-hewn walls and parapets. It looks like perhaps a proper city.
 
 > Do you want some time now in-character or out-of-character to make any plans, chat, discuss? A reminder, for this session, you can use any ability you know about at-will. 
+
+They talk a little bit about what's going on with them. Strange territory. Getting into a big city full of people they don't know. 
+
+Jenn wants to be cautious. 
+
+Jenn asks - what do both of them remember? 
 
 ## The gates of Svartalfheim
 
@@ -14,7 +20,25 @@ You set off through a field of waving, amber grains towards what you think is "t
 
 * If they don't remember, the guard says: 
 
-> Wyldfae, are ye? These are troubled times, and we've no room for troublemakers in Svartalfheim. No entry! 
+> Wyldfae, are ye? These are troubled times, and we've no room for troublemakers in Svartalfheim. No entry! * this one 
+
+10 - 1 deception check for taylor. 
+
+The walk back into the wheat. Jenn casts find familiar and casts her sprite. The sprite tells them about the summer court and is exasperated they don't. 
+
+- Justin makes an insight check 10 + 7. 
+
+- Taylor makes a perception check: 1 + 3. 
+
+- Justin makes a dexterity check for making a wheat mustache: 17 + 1
+
+- Justin makes a deception roll: 11 + 0
+
+- Justin makes a persuasion check: 18
+
+* They get incarcerated. 
+
+- Taylor makes aninsight check on the guards in the cell: 2 + 7 
 
 * Jenn can remember to use fly to get them over the walls. 
 
@@ -31,6 +55,40 @@ The sound of armored footsteps approach down the hall
 > My child, there isn't time to explain. The Korreds, they deal in gold. Take this, buy what supplies you must, and when you are ready, come back to this place. But... best not be seen, yes?
 
 * He hands them a pouch of 500 gold 
+
+## Shopping
+
+Jenn: Favorite item - arm warmers with thumbholes: 4 frail
+Justin: Favorite item -  a belt or necklace: 9 pain
+Taylor: Favorite item - sandals: 5 hungry/ waterborne 17
+
+197 gp 
+
+taylor makes a persuasion check for 5%. 
+
+303 gold left. 
+
+Taylor: makes an investigation check: 11 + 4
+
+Learns about Uzdur. 
+
+Justin: wants to find an illicit market with investigation 13 + 1. Fails and attracts the notice of some guards. 
+
+They dip into an alchemist shop, Quaff Til Ya Dropf
+
+Jenn: 5 + 0
+Justin: 17 + 1
+Taylor: 6 + 3
+
+Jenn makes a dex save: 18 + 3 
+
+Taylor rolls arcana: 8 + 4
+
+They buy worms. 301 gp. 
+
+Justin rolls intimidation: 17 
+
+Sleight of hand check: nat 20 for Jenn. She gets a potion of invisibility. 
 
 ## Departing Svartalfheim 
 
@@ -49,3 +107,12 @@ The sound of armored footsteps approach down the hall
 > Help with the barrel, don't be slow, he can only hold his breath so long. 
 
 You load it onto the wagon and they take off.
+
+
+## Q&A
+
+Jenn: Can people tell we aren't from this world? Maybe. 
+
+Justin: What are the factions warring over? Land, pride, territories.
+
+Taylor: What court does Agarax belong to? No court.
