@@ -150,7 +150,7 @@ export default {
       default: 0
     },
     proficiencies: {
-      type: Object,
+      type: Array,
       default: null
     },
     memories: {
