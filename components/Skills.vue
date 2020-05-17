@@ -4,7 +4,7 @@
       >Acrobatics:
       {{
         characterRemembers(memories.acrobatics)
-          ? getScore('acrobatics', 'strength')
+          ? getScore('acrobatics', 'dexterity')
           : ''
       }} </span
     ><br />
@@ -12,7 +12,7 @@
       >Animal Handling:
       {{
         characterRemembers(memories.animal_handling)
-          ? getScore('animal_handling', 'strength')
+          ? getScore('animal_handling', 'wisdom')
           : ''
       }}</span
     ><br />
@@ -20,7 +20,7 @@
       >Arcana:
       {{
         characterRemembers(memories.arcana)
-          ? getScore('arcana', 'strength')
+          ? getScore('arcana', 'intelligence')
           : ''
       }}</span
     ><br />
@@ -36,7 +36,7 @@
       >Deception:
       {{
         characterRemembers(memories.deception)
-          ? getScore('deception', 'strength')
+          ? getScore('deception', 'charisma')
           : ''
       }}</span
     ><br />
@@ -44,7 +44,7 @@
       >History:
       {{
         characterRemembers(memories.history)
-          ? getScore('history', 'strength')
+          ? getScore('history', 'intelligence')
           : ''
       }}</span
     ><br />
@@ -52,7 +52,7 @@
       >Insight:
       {{
         characterRemembers(memories.insight)
-          ? getScore('insight', 'strength')
+          ? getScore('insight', 'wisdom')
           : ''
       }}</span
     ><br />
@@ -60,7 +60,7 @@
       >Intimidation:
       {{
         characterRemembers(memories.intimidation)
-          ? getScore('intimidation', 'strength')
+          ? getScore('intimidation', 'charisma')
           : ''
       }}</span
     ><br />
@@ -68,7 +68,7 @@
       >Investigation:
       {{
         characterRemembers(memories.investigation)
-          ? getScore('investigation', 'strength')
+          ? getScore('investigation', 'intelligence')
           : ''
       }}</span
     ><br />
@@ -76,14 +76,14 @@
       >Medicine:
       {{
         characterRemembers(memories.medicine)
-          ? getScore('medicine', 'strength')
+          ? getScore('medicine', 'wisdom')
           : ''
       }}</span
     ><br />
     <span
       >Nature:{{
         characterRemembers(memories.nature)
-          ? getScore('nature', 'strength')
+          ? getScore('nature', 'intelligence')
           : ''
       }}</span
     ><br />
@@ -91,7 +91,7 @@
       >Perception:
       {{
         characterRemembers(memories.perception)
-          ? getScore('perception', 'strength')
+          ? getScore('perception', 'wisdom')
           : ''
       }} </span
     ><br />
@@ -99,7 +99,7 @@
       >Performance:
       {{
         characterRemembers(memories.performance)
-          ? getScore('performance', 'strength')
+          ? getScore('performance', 'charisma')
           : ''
       }} </span
     ><br />
@@ -107,7 +107,7 @@
       >Religion:
       {{
         characterRemembers(memories.religion)
-          ? getScore('religion', 'strength')
+          ? getScore('religion', 'charisma')
           : ''
       }} </span
     ><br />
@@ -115,7 +115,7 @@
       >Sleight of Hand:
       {{
         characterRemembers(memories.sleight_of_hand)
-          ? getScore('sleight_of_hand', 'strength')
+          ? getScore('sleight_of_hand', 'intelligence')
           : ''
       }} </span
     ><br />
@@ -123,7 +123,7 @@
       >Stealth:
       {{
         characterRemembers(memories.stealth)
-          ? getScore('stealth', 'strength')
+          ? getScore('stealth', 'dexterity')
           : ''
       }} </span
     ><br />
@@ -131,7 +131,7 @@
       >Survival:
       {{
         characterRemembers(memories.survival)
-          ? getScore('survival', 'strength')
+          ? getScore('survival', 'wisdom')
           : ''
       }} </span
     ><br />
