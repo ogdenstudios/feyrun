@@ -16,7 +16,7 @@ She amassed her soldiers outside Chateau Faire and claimed it for herself.
 
 Uzdur is an Archfey with no known backstory, but has bad blood with Oberon. He maintains a small keep in Svartalfheim, as he has purchased citizenship through some means. 
 
-Uzdur was able to offer Asylum to the inner cirrcle of the Summer Court. They reluctantly accepted his assistance. 
+Uzdur was able to offer Asylum to the inner circle of the Summer Court. They reluctantly accepted his assistance. 
 
 ## Oberon's plot 
 
